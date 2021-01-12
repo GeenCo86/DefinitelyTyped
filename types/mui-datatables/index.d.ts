@@ -23,7 +23,7 @@ export type DisplayData = Array<{ data: any[]; dataIndex: number }>;
 
 export interface MUISortOptions {
     name: string;
-    direction: 'asc' | 'desc';
+    direction: 'asc' | 'desc' | 'none';
 }
 
 export interface MUIDataTableData {
